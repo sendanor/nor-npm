@@ -1,0 +1,4 @@
+nor-npm
+=======
+
+NPM + Promises
