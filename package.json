@@ -2,7 +2,7 @@
   "name": "nor-npm",
   "version": "0.1.0",
   "description": "NPM + Promises",
-  "main": "index.js",
+  "main": "src/npm.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +12,10 @@
   },
   "author": "Jaakko-Heikki Heusala <jheusala@iki.fi>",
   "license": "MIT",
+  "dependencies":{
+    "npm": "*",
+    "q": "*"
+  },
   "bugs": {
     "url": "https://github.com/Sendanor/nor-npm/issues"
   }
