@@ -10,7 +10,7 @@ npm.load = Q.nbind(NPM.load, NPM);
 
 /* npm.commands */
 npm.commands = {};
-Object.keys(NPM.commands).forEach(function(key) {
+['update', 'install'].forEach(function(key) {
 	npm.commands[key] = Q.nbind(NPM.commands[key], NPM);
 });
 
